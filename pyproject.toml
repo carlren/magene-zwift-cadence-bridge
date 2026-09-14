@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magene-zwift-bridge"
+version = "0.2.0"
+description = "Bridge a Magene cadence sensor to a Zwift-compatible running cadence source."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+magene-zwift-bridge = "magene_bridge.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,7 @@
+{
+  "multiplier": 2.0,
+  "target_spm": 180.0,
+  "speed_mph": 6.0,
+  "raw_median_rpm": 90.0,
+  "sample_count": 20
+}
