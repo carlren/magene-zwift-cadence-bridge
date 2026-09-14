@@ -4,6 +4,8 @@ A native Linux application that reads a Magene cycling cadence sensor and publis
 
 The application includes a BlueZ-based CSC sensor client, a virtual RSC footpod publisher, and a demo backend that exercises every visual state without requiring hardware.
 
+![Linux cadence bridge showing synthetic demo data](screenshots/linux-app-active.png)
+
 ## Run
 
 ```bash
